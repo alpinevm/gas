@@ -68,7 +68,7 @@ fn print_header(gas_limit: u64, eth_price: f64) {
     );
 
     // Print a title
-    println!("{}", "Gas Price Comparison".bold().cyan());
+    println!("{}", "Gas Costs".bold().cyan());
 
     // Top border: 2 columns
     println!(

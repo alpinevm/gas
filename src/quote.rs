@@ -1,5 +1,5 @@
 /// Fetch ETH->USD price from Uniswap v3 on Ethereum mainnet
-use crate::chains::{RpcProvider, MAINNET_CHAIN_ID};
+use crate::chains::RpcProvider;
 use alloy::{
     primitives::{address, Address, U160},
     sol,
